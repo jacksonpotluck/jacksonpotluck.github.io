@@ -1,0 +1,100 @@
+ body {
+   
+  background: black;
+  font-family: "courier new";
+  color: #fff;
+}
+
+a:link {color:#0f0; text-decoration: none;}
+a:hover {color:#000;}
+
+.content {
+  max-width: 50%;
+  margin: auto;
+  text-align: justify;
+ 
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+mark {
+background-color:#ffffff;
+}
+
+mark:hover {
+ background-color: #000000;
+}
+
+.stuff {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 17px;
+ 
+}
+
+
+.ostuff {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 17px;
+ 
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+
+.matrix-text {
+  color: #0f0;
+  font-size: 20px;
+  font-family: "Courier New";
+  position: relative;
+  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+  font-weight: bold;
+}
+.matrix-text:hover{
+  color: #0f0;
+}
+
+.blinking-cursor {
+  font-weight: 500;
+  font-size: 15px; 
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+.jpot 
+
+{
+  clip-path: circle(50%);
+  width:50px;
+}
